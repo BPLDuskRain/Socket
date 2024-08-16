@@ -1,0 +1,1 @@
+g++ server.cpp http.cpp log.cpp pro.cpp -o s -lyaml-cpp

@@ -1,0 +1,20 @@
+ip: 127.0.0.1
+port: 9002
+
+log: 
+ acclog: "./acclog.log"
+ syslog: "./syslog.log"
+
+path: 
+ index: "./blog/index.html"
+ blog: "./blog"
+
+password: "./password.txt"
+
+secure: 
+ - "./blog/secure.html"
+
+error:
+ error401: "./blog/error401.txt"
+ error403: "./blog/error403.txt"
+ error404: "./blog/error404.txt"
